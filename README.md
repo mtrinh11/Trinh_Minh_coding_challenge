@@ -12,6 +12,7 @@ GUI used is [tkinter](https://docs.python.org/3/library/tkinter.html)
 - Run with Python version 3.12.2
 - Have tkinter installed
     - on mac: `brew install python-tk`
+- Run system in light-mode as not to not interfere with coloring. 
 
 ## Installation/Build/Run
 - Download files from Github
