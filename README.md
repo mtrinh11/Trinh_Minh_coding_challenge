@@ -10,6 +10,8 @@ GUI used is [tkinter](https://docs.python.org/3/library/tkinter.html)
 
 ## Prerequisites
 - Run with Python version 3.12.2
+- Have tkinter installed
+    - on mac: `brew install python-tk`
 
 ## Installation/Build/Run
 - Download files from Github
