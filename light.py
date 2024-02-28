@@ -67,6 +67,7 @@ class Light(tk.Frame):
         None
 
         """
+        self.canvas.delete(f"{self.color}off")
         self.canvas.create_oval(self.x0, self.y0, self.x1, self.y1, fill=self.color, width=5)
         self.canvas.pack()
 
@@ -84,6 +85,7 @@ class Light(tk.Frame):
         -------
         None
         """
+        self.canvas.delete(f"{self.color}on")
         self.canvas.create_oval(self.x0, self.y0, self.x1, self.y1, fill="grey", width=5)
         self.canvas.pack()
 
